@@ -1,0 +1,21 @@
+{
+  "name": "ai-customer-support-assistant-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Document-grounded customer support assistant using Express, SQLite, and OpenRouter.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "1.1.1"
+  }
+}
